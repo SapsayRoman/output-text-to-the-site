@@ -4,5 +4,5 @@ document.getElementById('registerButton').addEventListener('click', function() {
     var password = document.getElementById('password').value;
 
     console.log("Реєстрація з даними:", username, email, password);
-    alert('Реєстрація імітована! Перевірте консоль.');
+    alert('Реєстрація виконана! Перевірте консоль.');
 });
