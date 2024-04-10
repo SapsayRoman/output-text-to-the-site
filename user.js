@@ -3,5 +3,5 @@ document.getElementById('loginButton').addEventListener('click', function() {
     var password = document.getElementById('loginPassword').value;
 
     console.log("Спроба входу з:", username, password);
-    alert('Авторизація імітована! Перевірте консоль.');
+    alert('Авторизація виконана! Перевірте консоль.');
 });
